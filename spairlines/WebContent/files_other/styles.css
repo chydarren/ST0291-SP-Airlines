@@ -1,0 +1,188 @@
+@CHARSET "ISO-8859-1";
+
+/*custom fonts*/
+@font-face{
+	font-family: "Optima";
+	src: url("../fonts/Optima/OPTIMA.TTF") format("truetype");
+}
+
+@font-face{
+	font-family: "Optima";
+	font-weight: bold;
+	src: url("../fonts/Optima/OPTIMA_B.TTF") format("truetype");
+}
+
+@font-face{
+	font-family: "Source_Sans_Pro";
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Source_Sans_Pro";
+	font-weight: bold;
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");	
+}
+
+/* main container */
+header{
+	font-family: Optima, Verdana, Arial, sans-serif;	
+}
+
+body{
+	background-color: #e0e0e0;
+	font-family: Optima, Verdana, Arial, sans-serif;	
+}
+
+.main{
+	margin: 25px;
+	font-family: "Source_Sans_Pro";
+	font-size: 17px;
+}
+
+/* headings */ 
+header{
+	text-align: center;
+}
+
+header h1{
+	background-image:url(../images/background.png);
+	color: #2980b9;
+	font-weight: bold;
+	font-size: 60px;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+header h4{
+	background-color: #eeefeb; /* d7dbdd */ 
+	margin-top: 0px;
+	margin-bottom: 60px;
+	padding: 10px;
+}
+
+#image{
+	display: inline-block;
+	float: left;
+	height: 150px;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 100px;
+}
+
+/* navigation */
+.navbar{
+	background-color: #f0f3f4;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	filter: none;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+.bookingnav > div{
+	border-top: 4px solid #afafaf;
+	background-color: #85929e;
+	height: 70px;
+}
+
+/* articles */ 
+article{
+	background-color: #ffffff;
+	margin-top: 0px;
+	padding: 30px;
+}
+
+article h1{
+	margin-top: 0px;
+}
+
+article h1, article h3, footer{
+	font-family: Optima, Verdana, Arial, sans-serif;	
+}
+
+/* forms */ 
+form{
+	margin-top: 50px;
+}
+
+.form-group select, .form-group input[type="date"], .form-group input[type="text"], .form-group input[type="password"], 
+.form-group input[type="email"], .form-group input[type="tel"]{
+	border-radius: 0;
+	border: 2px solid #e0e0e0;
+	box-shadow: none;
+	font-size: 17px;
+	height: 40px;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-group input[type="date"]:hover, .form-group input[type="date"]:focus, .form-group input[type="text"]:hover, 
+.form-group input[type="text"]:focus, .form-group input[type="password"]:hover, .form-group input[type="password"]:focus, 
+.form-group input[type="email"]:hover, .form-group input[type="email"]:focus, .form-group input[type="tel"]:hover, 
+.form-group input[type="tel"]:focus{
+	border-color: #2980b9; 
+	cursor: text;
+}
+
+.form-group select:hover, .form-group select:focus{
+	border-color: #2980b9;
+	cursor: pointer;
+}
+
+.form-group input[type="submit"], .form-group input[type="reset"], .form-group input[type="button"], button[type="button"]{
+	border-radius: 0;
+	font-size: 17px;
+	height: 40px;
+	transition: all 0.3s ease-in-out;
+}
+
+/* others */ 
+.classcost{
+	color: #ffffff;
+	text-align: center;
+}
+
+/* footer */ 
+/*  back to top */ 
+#top{
+	background-color: #707070;
+	bottom: 35px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 38px;
+	padding: 0px 14px 8px;
+    position: fixed;
+	right: 30px;
+	text-decoration: none;
+	opacity: 0;
+	z-index: 1;
+}
+
+#top:hover{
+	background-color: #2980b9;
+	transition: all 0.3s ease-in-out;
+}
+
+#top.show{
+	opacity: 0.8;
+	transition: all 0.3s ease-in-out;
+}
+
+footer {
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 140px;
+	background-color: #3b3b3b;
+	border-top: 4px solid #2980b9;
+	padding: 25px;
+	overflow: auto;
+}
+
+#copyright{
+	font-weight: bold;
+	font-size: 18px;
+}
