@@ -8,7 +8,7 @@ Bootstrap 4 framework.
 
 ## Preview
 
-[Visit the Website (without DB)](http://darrenweicheng.azurewebsites.net/)
+[Visit the Website (without database)](http://darrenweicheng.azurewebsites.net/)
 
 ## Usage
 
