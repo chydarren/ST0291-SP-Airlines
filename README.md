@@ -36,7 +36,7 @@ Clone this repository into any directory and follow the steps below.
 
 ## Acknowledgements 
 
-- **Chua Han Yong Darren** | [@chydarren](https://github.com/chydarren)
+- **Darren Chua** | [@chydarren](https://github.com/chydarren)
 - **Chng Wei Cheng** 
 
 ## Credits
