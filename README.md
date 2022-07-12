@@ -1,8 +1,6 @@
 # SP Airlines
 
-## Introduction
-
-This is an enterprise web application that allows booking of flights through SP Airlines. It implements shopping cart features in order 
+***SP Airlines*** is an enterprise web application that allows booking of flights through SP Airlines. It implements shopping cart features in order 
 for the website to conduct e-business on the web. The content and design elements of the website are original, but are coded based on the
 Bootstrap 4 framework. 
 
@@ -36,15 +34,13 @@ Clone this repository into any directory and follow the steps below.
 3. Execute `spairlines_routines.sql` to create the stored routine for the userdelete feature meant for `files_admin/superuser.jsp`. 
 4. Finally, in all the JSP files, check that the connection to the MySQL instance is verified using your password. The password in this case is `root`. 
 
-## Disclaimer
+## Acknowledgements 
 
-This program was developed as an assignment for the Singapore Polytechnic, ST0291 Enterprise Application Development module. I have uploaded the source files publicly for reference and personal usage only. Please refrain from [plagiarising](https://www.sp.edu.sg/sp/student-services/ssc-overview/student-handbook/intellectual-property-copyright-and-plagiarism) or passing it off as your own work. 
-
-**Developers**
-
-- Chua Han Yong Darren ([@chydarren](https://github.com/chydarren))
-- Chng Wei Cheng
+- **Chua Han Yong Darren** | [@chydarren](https://github.com/chydarren)
+- **Chng Wei Cheng** 
 
 ## Copyright and License 
+
+This program was developed as an assignment for the Singapore Polytechnic, ST0291 Enterprise Application Development module. I have uploaded the source files publicly for reference and personal usage only. Please refrain from [plagiarising](https://www.sp.edu.sg/sp/student-services/ssc-overview/student-handbook/intellectual-property-copyright-and-plagiarism) or passing it off as your own work. 
 
 Chua Han Yong Darren © 2017. Code released under the GNU Affero General Public License v3.0.
